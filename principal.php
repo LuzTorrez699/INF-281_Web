@@ -210,6 +210,7 @@
                             <div class="d-flex flex-column align-items-center border px-4 mb-4">
                                 <h2 class="display-3 text-success mb-3" data-toggle="counter-up">1050</h2>
                                 <h5 class="font-weight-bold mb-4">Clientes Satisfechos</h5>
+                                
                             </div>
                         </div>
                         <div class="col-sm-6 pb-1">
@@ -235,7 +236,7 @@
                     <small class="bg-success text-white text-uppercase font-weight-bold px-1">Conoce al Equipo</small>
                     <h1 class="mt-2 mb-3">Conoce a los Artesanos y Administradores</h1>
                     <h4 class="font-weight-normal text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut ligula eget velit consequat dictum. Cras vulputate arcu eget blandit ultrices.</h4>
-                    <a href="" class="btn btn-success py-md-2 px-md-4 font-weight-semi-bold">Conocer a Todos los Vendedores</a>
+                    <a href="" class="btn btn-success py-md-2 px-md-4 font-weight-semi-bold">Conocer a Todos los Artesanos</a>
                 </div>
                 <div class="col-lg-8 mb-5">
                     <div class="owl-carousel team-carousel">
@@ -284,7 +285,7 @@
                             </div>
                             <div class="border border-top-0 text-center" style="padding: 30px;">
                                 <h5 class="font-weight-bold">John Brown</h5>
-                                <span>Vendedor</span>
+                                <span>Delivery</span>
                             </div>
                         </div>
                         <div class="team-item">
@@ -355,13 +356,38 @@
                 <div class="col-lg-5 mb-5">
                     <small class="d-inline bg-success text-white text-uppercase font-weight-bold px-1">Nuestro Plan de Membresía</small>
                     <h1 class="mt-2 mb-3">Ofrecemos Paquetes Asequibles y Flexibles</h1>
-                    <h4 class="font-weight-normal text-muted mb-4">Únete a nuestra organización sin fines de lucro y disfruta de los beneficios de ser parte de nuestra comunidad comprometida.</h4>
+                    <h4 class="font-weight-normal text-muted mb-4">Únete a nuestra organización y disfruta de los beneficios de ser parte de nuestra comunidad comprometida.</h4>
                     <h5 class="font-weight-bold mb-4">¿Necesitas un Paquete Personalizado?</h5>
                     <a href="" class="btn btn-success py-md-2 px-md-4 font-weight-semi-bold">Contáctanos Ahora</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Shopping Cart Start -->
+<div class="container-fluid pt-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Carrito de Compras</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Aquí se agregarán los productos dinámicamente -->
+            </tbody>
+        </table>
+        <div class="text-right">
+            <h4>Total: <span id="cart-total">$0</span></h4>
+        </div>
+    </div>
+</div>
+<!-- Shopping Cart End -->
+
 
     <!-- Pricing Plan End -->
 
@@ -380,19 +406,19 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
                             <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
-                                Estoy realmente impresionado por el impacto positivo que nuestra organización ha tenido en la comunidad. Es increíble ver cómo nuestras donaciones están cambiando vidas para mejor.
+                                Estoy realmente impresionado por el impacto positivo que nuestra organización ha tenido en la comunidad. Es increíble ver cómo nuestras artesanias están cambiando vidas para mejor.
                             </div>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;" alt="Image">
                                 <div class="pl-4">
                                     <h6 class="font-weight-bold">Marío López</h6>
-                                    <i class="text-muted">Voluntario</i>
+                                    <i class="text-muted">Artesano</i>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
-                                Desde que me uní como voluntario, he sido testigo del increíble trabajo que realiza nuestra organización. Cada donación marca la diferencia en la vida de quienes más lo necesitan.
+                                Desde que me uní como artesano, he sido testigo del increíble trabajo que realiza nuestra comunidad. Cada artesania marca la diferencia en la vida de las personas que las compran.
                             </div>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;" alt="Image">
@@ -404,19 +430,19 @@
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
-                                La labor de nuestra organización ha sido fundamental para brindar esperanza a aquellos que enfrentan situaciones difíciles. Estoy orgulloso de formar parte de este equipo comprometido.
+                                La labor de nuestra comunidad ha sido fundamental para brindar esperanza a aquellos que ayudan a sus familias con sus artesanias. Estoy orgulloso de formar parte de este equipo comprometido.
                             </div>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;" alt="Image">
                                 <div class="pl-4">
                                     <h6 class="font-weight-bold">Alejandro Martínez</h6>
-                                    <i class="text-muted">Donador</i>
+                                    <i class="text-muted">Artesano</i>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
-                                Como beneficiario de las donaciones de esta organización, puedo decir que han sido un verdadero salvavidas para mí y mi familia. Estamos eternamente agradecidos por su ayuda.
+                                Como beneficiaria de las artesanias de esta comunidad, puedo decir que han sido un verdadero salvavidas para mí y mi familia. Estamos eternamente agradecidos por su ayuda.
                             </div>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid rounded-circle" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;" alt="Image">
@@ -428,7 +454,7 @@
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial-text position-relative border mb-4" style="padding: 25px 30px;">
-                                Como beneficiario de las donaciones de esta organización, puedo decir que han sido un verdadero salvavidas para mí y mi familia. Estamos eternamente agradecidos por su ayuda.
+                                Como beneficiario de las ventas de los productos de la comunidad, puedo decir que han sido un verdadero salvavidas para mí y mi familia. Estamos eternamente agradecidos por su ayuda.
                             </div>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid rounded-circle" src="img/testimonial-5.jpg" style="width: 80px; height: 80px;" alt="Image">
@@ -451,17 +477,17 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center">
-                <small class="bg-success text-white text-uppercase font-weight-bold text-center px-1">Nuestro Blog</small>
-                <h1 class="mt-2 mb-5">Lo último de nuestro blog</h1>
+                <small class="bg-success text-white text-uppercase font-weight-bold text-center px-1">Productos y Artesanias</small>
+                <h1 class="mt-2 mb-5">Artesanias</h1>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="img/blog-1.jpg" alt="">
-                        <div class="position-absolute bg-success d-flex flex-column align-items-center justify-content-center" style="width: 80px; height: 80px; bottom: 0; left: 0;">
+                        <img class="img-fluid w-100" src="img/isla1.jpg" alt="">
+                        <!-- <div class="position-absolute bg-success d-flex flex-column align-items-center justify-content-center" style="width: 80px; height: 80px; bottom: 0; left: 0;">
                             <h6 class="text-uppercase mt-2 mb-n2">Ene</h6>
                             <h1 class="m-0">01</h1>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="border border-top-0" style="padding: 30px;">
                         <div class="d-flex mb-3">
@@ -471,19 +497,59 @@
                             </div>
                             <div class="d-flex align-items-center ml-4">
                                 <i class="far fa-bookmark text-success"></i>
-                                <a class="text-muted ml-2" href="">Donaciones</a>
+                                <a class="text-muted ml-2" href="">Artesano</a>
                             </div>
                         </div>
-                        <a class="h5 font-weight-bold" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et nulla id dolor laoreet consectetur nec nec nulla.</a>
+                        <a class="h5 font-weight-bold" href="">Isla del Sol, Artesanos especializados en la creación de tejidos, bordados y figuras de madera.</a>
                     </div>
+
+                    <!-- productos -->
+
+                    <div class="col-lg-4 mb-5">
+                        <div class="team-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/is1.jpg" alt="">
+                                <div class="team-overlay position-absolute d-flex align-items-center justify-content-center m-3">
+                                    <!-- Botones Sociales -->
+                                </div>
+                            </div>
+                            <div class="border border-top-0 text-center" style="padding: 30px;">
+                                <h5 class="font-weight-bold">Alpaca decorativa de lana</h5>
+                                <span>Producto</span>
+                                <p>$12</p>
+                                <button class="btn btn-success" onclick="addToCart('John Doe', 10)">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                                    <!-- productos -->
+
+                                    <div class="col-lg-4 mb-5">
+                        <div class="team-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/is2.jpg" alt="">
+                                <div class="team-overlay position-absolute d-flex align-items-center justify-content-center m-3">
+                                    <!-- Botones Sociales -->
+                                </div>
+                            </div>
+                            <div class="border border-top-0 text-center" style="padding: 30px;">
+                                <h5 class="font-weight-bold">Bolsa tejida</h5>
+                                <span>Producto</span>
+                                <p>$15</p>
+                                <button class="btn btn-success" onclick="addToCart('John Doe', 10)">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
                 <div class="col-md-6 mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
-                        <div class="position-absolute bg-success d-flex flex-column align-items-center justify-content-center" style="width: 80px; height: 80px; bottom: 0; left: 0;">
+                        <img class="img-fluid w-100" src="img/jalqa1.jpg" alt="">
+                        <!-- <div class="position-absolute bg-success d-flex flex-column align-items-center justify-content-center" style="width: 80px; height: 80px; bottom: 0; left: 0;">
                             <h6 class="text-uppercase mt-2 mb-n2">Ene</h6>
                             <h1 class="m-0">01</h1>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="border border-top-0" style="padding: 30px;">
                         <div class="d-flex mb-3">
@@ -493,14 +559,55 @@
                             </div>
                             <div class="d-flex align-items-center ml-4">
                                 <i class="far fa-bookmark text-success"></i>
-                                <a class="text-muted ml-2" href="">Impacto Social</a>
+                                <a class="text-muted ml-2" href="">Artesano</a>
                             </div>
                         </div>
-                        <a class="h5 font-weight-bold" href="">Suspendisse potenti. Mauris suscipit, nisi eget suscipit auctor, urna orci convallis libero, id lobortis arcu ligula in justo.</a>
+                        <a class="h5 font-weight-bold" href="">Comunidad Jalq'a, destacan por sus textiles con motivos geométricos y símbolos tradicionales con un estio unico.</a>
                     </div>
+
+                                        <!-- productos -->
+
+                                        <div class="col-lg-4 mb-5">
+                        <div class="team-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/j1.jpg" alt="">
+                                <div class="team-overlay position-absolute d-flex align-items-center justify-content-center m-3">
+                                    <!-- Botones Sociales -->
+                                </div>
+                            </div>
+                            <div class="border border-top-0 text-center" style="padding: 30px;">
+                                <h5 class="font-weight-bold">Poncho con diseño Jalq'a</h5>
+                                <span>Producto</span>
+                                <p>$30</p>
+                                <button class="btn btn-success" onclick="addToCart('John Doe', 10)">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                                    <!-- productos -->
+
+                                    <div class="col-lg-4 mb-5">
+                        <div class="team-item">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/j2.jpg" alt="">
+                                <div class="team-overlay position-absolute d-flex align-items-center justify-content-center m-3">
+                                    <!-- Botones Sociales -->
+                                </div>
+                            </div>
+                            <div class="border border-top-0 text-center" style="padding: 30px;">
+                                <h5 class="font-weight-bold">Tejido Jalq'a</h5>
+                                <span>Producto</span>
+                                <p>$40</p>
+                                <button class="btn btn-success" onclick="addToCart('John Doe', 10)">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+            
         </div>
+
     </div>
 
        
